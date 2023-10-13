@@ -1,6 +1,3 @@
-"use client";
-import Image from "next/image";
-import React, { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Link from "next/link";
@@ -11,7 +8,7 @@ export default function Home() {
       <Navbar />
       <div className={"pt-10"}>
         <section className="min-h-[500px] md:min-h-screen flex justify-center items-center bg-paint bg-fixed bg-center bg-no-repeat bg-cover">
-          <div className="flex flex-col justify-left items-left bg-gray-800 bg-opacity-60 w-full rounded-lg p-4">
+          <div className="flex flex-col justify-left items-left bg-gray-800 bg-opacity-70 w-full p-4">
             <div className="text-white text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl tracking-wide font-bold">
               Facilities
             </div>
@@ -27,37 +24,53 @@ export default function Home() {
           </div>
         </section>
         <section className="p-6 border-2 border-black">
-          <div className="flex text-black text-xl sm:text-2xl md:text-3xl tracking-wide font-bold items-center justify-center mb-4">
+          <h2 className="flex text-black text-xl sm:text-2xl md:text-3xl tracking-wide font-bold items-center justify-center mb-4">
             New Program for Miners!
+          </h2>
+          <div className="flex items-center justify-center rounded-lg mb-2">
+            <img
+              src="/uteplogo.webp"
+              alt="utep logo"
+              width="125px"
+              height="125px"
+            />
           </div>
-          <div className="flex text-black text-lg sm:text-xl md:text-2xl tracking-wide font-bold items-center justify-center">
-            Job Description
-          </div>
-          <div className="flex justify-center">
-            <ul className="text-black list-disc">
-              <li className="text-black">
-                Gain an in-depth understanding of the maintenance industry
-              </li>
-              <li className="text-black">
-                Challenge yourself with repair, construction, and remodel
-                training
-              </li>
-              <li className="text-black">Flexible schedules</li>
-            </ul>
-          </div>
-          <br />
-          <div className="flex text-black text-lg sm:text-xl md:text-2xl tracking-wide font-bold items-center justify-center">
-            Qualifications
-          </div>
-          <div className="flex justify-center">
-            <ul className="text-black list-disc">
-              <li className="text-black">
-                Male or female that can lift up to 50 lbs
-              </li>
-              <li className="text-black">Good attitude</li>
-              <li className="text-black">Willing to learn</li>
-              <li className="text-black">Some work experience (any field)</li>
-            </ul>
+          <div className="flex flex-wrap justify-center">
+            <div className="flex flex-col my-2 mx-6 w-[300px]">
+              <h3 className="flex text-black text-lg sm:text-xl md:text-2xl tracking-wide font-bold items-center justify-center">
+                Job Description
+              </h3>
+              <div className="flex justify-center">
+                <ul className="text-black list-disc">
+                  <li className="text-black">
+                    Gain an in-depth understanding of the maintenance industry
+                  </li>
+                  <li className="text-black">
+                    Challenge yourself with repair, construction, and remodel
+                    training
+                  </li>
+                  <li className="text-black">Flexible schedules</li>
+                </ul>
+              </div>
+            </div>
+            <br />
+            <div className="flex flex-col w-[300px] my-2 mx-6">
+              <div className="flex text-black text-lg sm:text-xl md:text-2xl tracking-wide font-bold items-center justify-center">
+                Qualifications
+              </div>
+              <div className="flex justify-center">
+                <ul className="text-black list-disc">
+                  <li className="text-black">
+                    Male or female that can lift up to 50 lbs
+                  </li>
+                  <li className="text-black">Good attitude</li>
+                  <li className="text-black">Willing to learn</li>
+                  <li className="text-black">
+                    Some work experience (any field)
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
           <div className="flex justify-center">
             <Link
@@ -69,7 +82,7 @@ export default function Home() {
           </div>
         </section>
         <div className="min-h-screen flex justify-right items-center bg-maintman bg-fixed bg-no-repeat bg-cover">
-          <div className="justify-right items-center bg-gray-800 bg-opacity-60 w-full rounded-lg p-4">
+          <div className="justify-right items-center bg-gray-800 bg-opacity-70 w-full p-4">
             <p className="text-white font-bold align-right text-xl tracking-wide mb-2">
               We We Do?
             </p>
@@ -88,7 +101,7 @@ export default function Home() {
                 href="/about-us"
                 className="bg-black text-white text-center mt-4 p-1 rounded-lg transition hover:bg-gray-700 w-[150px]"
               >
-                Learn More
+                Read About Us
               </Link>
             </div>
           </div>
@@ -414,7 +427,12 @@ export default function Home() {
               <p className="text-black font-bold">Cleaning</p>
             </div>
             <div className="flex flex-col items-center">
-              <img src="graphic1.webp" height="50px" width="50px" />
+              <img
+                src="graphic1.webp"
+                alt="part swap"
+                height="50px"
+                width="50px"
+              />
               <p className="text-black font-bold text-center">Replacement</p>
             </div>
             <div className="flex flex-col items-center">
@@ -488,12 +506,12 @@ export default function Home() {
               className="bg-black text-white text-center mt-4 p-1 rounded-lg transition hover:bg-gray-700 w-[150px]"
               href="/services"
             >
-              Read More
+              Services Detail
             </Link>
           </div>
         </section>
         <section className="min-h-screen flex justify-center items-center bg-maintman2 bg-fixed bg-no-repeat bg-cover">
-          <div className="justify-right items-center bg-gray-800 bg-opacity-60 w-full rounded-lg p-4">
+          <div className="justify-right items-center bg-gray-800 bg-opacity-70 w-full p-4">
             <p className="text-white font-bold align-right text-xl tracking-wide mb-2">
               Who We Are
             </p>
@@ -516,7 +534,7 @@ export default function Home() {
                 className="bg-black text-white text-center mt-4 p-1 rounded-lg transition hover:bg-gray-700 w-[150px]"
                 href="/about-us"
               >
-                Learn More
+                Read About Us
               </Link>
             </div>
           </div>

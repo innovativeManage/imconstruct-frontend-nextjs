@@ -1,6 +1,5 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import React from "react";
 
 export default function Services() {
   return (
@@ -8,10 +7,10 @@ export default function Services() {
       <Navbar />
       <div className={"pt-20"}>
         <section className="p-4">
-          <h1 className="flex text-black text-xl sm:text-2xl md:text-3xl tracking-wide font-bold items-center justify-center mb-4">
+          <h1 className="flex text-black text-2xl md:text-3xl lg:text-4xl tracking-wide font-bold items-center justify-center mb-4">
             Our Services
           </h1>
-          <div className="flex mb-4 text-black text-center text-lg sm:text-xl md:text-2xl tracking-wide font-bold items-center justify-center">
+          <div className="flex mb-4 text-black text-center text-lg sm:text-xl md:text-2xl tracking-wider items-center justify-center">
             We Offer a Range of Services to Meet Your Needs
           </div>
           <div className="flex flex-wrap-reverse md:flex-wrap items-center justify-center">
@@ -68,21 +67,31 @@ export default function Services() {
               </svg>
               <p className="text-black text-xl font-bold">Repairs</p>
               <p className="text-black text-center">
-                Maintain is the one-stop shop for all your maintenance needs.
+                iMaintain is the one-stop shop for all your maintenance needs.
                 From deep and detailed cleaning services, to repair and
                 renovation, we have you covered. Our commitment to quality and
                 customer satisfaction sets us apart from the competition.
               </p>
             </div>
-            <div className="flex m-4">
-              <img src="113.webp" alt={"repairs"} height={"300px"} width={"300px"} />
+            <div className="flex m-2 md:m-4 lg:m-16">
+              <img
+                src="113.webp"
+                alt={"image of repair bag and tools on the floor"}
+                height={"300px"}
+                width={"300px"}
+              />
             </div>
           </div>
-          <div className="flex flex-wrap items-center space-x-6 space-y-6 justify-center">
-            <div className="flex m-4">
-              <img src="112.webp" height={"300px"} width={"300px"} />
+          <div className="flex flex-wrap items-center justify-center">
+            <div className="flex m-2 md:m-4 lg:m-16">
+              <img
+                src="112.webp"
+                alt="bucket with cleaning supplies"
+                height={"300px"}
+                width={"300px"}
+              />
             </div>
-            <div className="flex flex-col items-center justify-center max-w-[400px]">
+            <div className="flex flex-col items-center justify-center max-w-[500px]">
               <svg
                 preserveAspectRatio="xMidYMid meet"
                 data-bbox="33.001 20 133.999 160.003"
@@ -335,7 +344,7 @@ export default function Services() {
               </svg>
               <p className="text-black text-xl font-bold">Cleaning</p>
               <p className="text-black text-center">
-                Maintain is the one-stop shop for all your maintenance needs.
+                iMaintain is the one-stop shop for all your maintenance needs.
                 From deep and detailed cleaning services, to repair and
                 renovation, we have you covered. Our commitment to quality and
                 customer satisfaction sets us apart from the competition.
@@ -345,7 +354,12 @@ export default function Services() {
           <div className="flex flex-wrap-reverse md:flex-wrap items-center justify-center">
             <div className="flex flex-col items-center justify-center max-w-[500px]">
               <div className="flex m-4">
-                <img src="graphic1.webp" height={"50px"} width={"50px"} />
+                <img
+                  src="graphic1.webp"
+                  alt="part swap"
+                  height={"50px"}
+                  width={"50px"}
+                />
               </div>
               <p className="text-black text-xl font-bold">Replacement</p>
               <p className="text-black text-center">
@@ -356,13 +370,23 @@ export default function Services() {
                 maintenance needs are taken care of.
               </p>
             </div>
-            <div className="flex m-4">
-              <img src="114.webp" height={"300px"} width={"300px"} />
+            <div className="flex m-2 md:m-4 lg:m-16">
+              <img
+                src="114.webp"
+                alt="man repairing wall"
+                height={"300px"}
+                width={"300px"}
+              />
             </div>
           </div>
-          <div className="flex flex-wrap items-center space-x-6 space-y-6 justify-center">
-            <div className="flex m-4">
-              <img src="115.webp" height={"300px"} width={"300px"} />
+          <div className="flex flex-wrap items-center justify-center">
+            <div className="flex m-2 md:m-4 lg:m-16">
+              <img
+                src="115.webp"
+                alt="image of a stucco wall"
+                height={"300px"}
+                width={"300px"}
+              />
             </div>
             <div className="flex flex-col items-center justify-center max-w-[400px]">
               <svg

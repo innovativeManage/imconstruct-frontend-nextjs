@@ -1,6 +1,5 @@
 // components/Navbar.js
 import Link from "next/link";
-import React from "react";
 
 const Navbar = () => {
   return (
@@ -18,7 +17,7 @@ const Navbar = () => {
           <ul className="flex space-x-1">
             <li>
               <Link
-                className="bg-black text-white text-sm md:text-md mt-4 p-2 rounded-lg transition hover:bg-gray-700"
+                className="bg-black text-white font-bold text-sm md:text-md mt-4 p-2 md:p-4 rounded-lg transition hover:bg-gray-700"
                 href="/services"
               >
                 Services
@@ -26,7 +25,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                className="bg-black text-white text-sm md:text-md mt-4 p-2 rounded-lg transition hover:bg-gray-700"
+                className="bg-black text-white font-bold text-sm md:text-md mt-4 p-2 md:p-4 rounded-lg transition hover:bg-gray-700"
                 href="/about-us"
               >
                 About Us
@@ -34,7 +33,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                className="bg-black text-white text-sm md:text-md mt-4 p-2 rounded-lg transition hover:bg-gray-700"
+                className="bg-black text-white font-bold text-sm md:text-md mt-4 p-2 md:p-4 rounded-lg transition hover:bg-gray-700"
                 href="/contact"
               >
                 Contact
