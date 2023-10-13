@@ -75,7 +75,7 @@ export default function Services() {
               </p>
             </div>
             <div className="flex m-4">
-              <img src="113.webp" height={"300px"} width={"300px"} />
+              <img src="113.webp" alt={"repairs"} height={"300px"} width={"300px"} />
             </div>
           </div>
           <div className="flex flex-wrap items-center space-x-6 space-y-6 justify-center">
@@ -429,7 +429,7 @@ export default function Services() {
               <p className="text-black text-center mb-4">
                 iMaintain is your one-stop shop for facilities maintenance and
                 construction. We specialize in paint jobs, wall and ledge
-                repair, and other handyman tasks. Whether you're looking for a
+                repair, and other handyman tasks. Whether you are looking for a
                 quick repair to your home or office, or a more involved
                 remodeling project, we are here to help.
               </p>
