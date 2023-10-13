@@ -60,7 +60,12 @@ export default function AboutUs() {
               </p>
             </div>
             <div className="flex m-2 md:m-4 lg:m-16">
-              <img src="116.webp" height={"350px"} width={"350px"} />
+              <img
+                src="116.webp"
+                alt="worker writing on paper"
+                height={"350px"}
+                width={"350px"}
+              />
             </div>
           </div>
         </section>

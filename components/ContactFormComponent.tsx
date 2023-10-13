@@ -90,6 +90,7 @@ function ContactFormComponent() {
             <label className="text-black mb-1">First Name</label>
             <input
               className="text-black p-2 border-2 border-gray-300 rounded-md h-[40px] min-w-[280px]"
+              aria-label="First Name"
               name={"first_name"}
               onChange={handleChange}
               value={inputs.first_name}
@@ -99,6 +100,7 @@ function ContactFormComponent() {
             <label className="text-black mb-1">Last Name</label>
             <input
               className="text-black p-2 border-2 border-gray-300 rounded-md h-[40px] min-w-[280px]"
+              aria-label="Last Name"
               name={"last_name"}
               onChange={handleChange}
               value={inputs.last_name}
@@ -112,6 +114,7 @@ function ContactFormComponent() {
             </label>
             <input
               className="text-black p-2 border-2 border-gray-300 rounded-md h-[40px] min-w-[280px]"
+              aria-label="Email"
               name={"email"}
               type={"email"}
               required
@@ -125,6 +128,7 @@ function ContactFormComponent() {
             </label>
             <input
               className="text-black p-2 border-2 border-gray-300 rounded-md h-[40px] min-w-[280px]"
+              aria-label="Subject"
               name={"subject"}
               onChange={handleChange}
               required
@@ -139,6 +143,7 @@ function ContactFormComponent() {
             </label>
             <textarea
               className="text-black p-2 border-2 border-gray-300 rounded-md h-[120px] w-[280px] sm:w-[570px]"
+              aria-label="Message"
               name={"message"}
               onChange={handleChange}
               required
