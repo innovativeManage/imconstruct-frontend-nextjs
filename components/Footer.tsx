@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="flex flex-auto">
           <Link
             className="bg-black text-white text-center mt-4 p-1 rounded-lg transition hover:bg-gray-700 w-[150px]"
-            href="/about-us"
+            href="/contact"
           >
             Contact Us
           </Link>

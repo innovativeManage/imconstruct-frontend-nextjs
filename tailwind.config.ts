@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "paint": 'url("/paint.webp")',
+        "paint": 'url("/paint.gif")',
         "maintman": 'url("/11062.webp")',
         "maintman2": 'url("/11070.webp")',
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
