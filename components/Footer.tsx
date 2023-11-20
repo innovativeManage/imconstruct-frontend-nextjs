@@ -23,7 +23,6 @@ const Footer = () => {
       <div>
         <p className="text-black font-bold text-xl">Head Office</p>
         <p className="text-black">415 S Kansas St. El Paso, TX 79901</p>
-        <p className="text-black">(915) 301-3881</p>
         <p className="text-black">team@imconstruct.com</p>
       </div>
     </section>
